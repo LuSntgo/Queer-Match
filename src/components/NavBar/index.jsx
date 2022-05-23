@@ -21,8 +21,8 @@ export function NavBar() {
         >
           <NavText onClick={() => navigate("/descubra")}>DESCUBRA </NavText>
           <NavText onClick={() => navigate("/filmes")}>FILMES </NavText>
-          <NavText onClick={() => navigate("/series")}>SÉRIES </NavText>
-          <NavText onClick={() => navigate("/livros")}>LIVROS </NavText>
+          <NavText onClick={() => navigate("/filmes")}>SÉRIES </NavText>
+          <NavText onClick={() => navigate("/filmes")}>LIVROS </NavText>
         </Box>
         <Box alignSelf="center" width="140px" justify="end">
           <SignInBtn />

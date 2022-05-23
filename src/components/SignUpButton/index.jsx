@@ -109,7 +109,7 @@ export default function SignUpBtn() {
                   ]}
                 />
               </FormField>
-              <FormField label="Avatar" name="image" htmlFor="image">
+              {/* <FormField label="Avatar" name="image" htmlFor="image">
                 <TextInput
                   name="image"
                   id="image"
@@ -118,7 +118,7 @@ export default function SignUpBtn() {
                   disabled={isLoading}
                   value={formData.image}
                 />
-              </FormField>
+              </FormField> */}
               <FormField label="Senha" name="password" htmlFor="password">
                 <TextInput
                   name="password"

@@ -52,9 +52,10 @@ export default function SignInBtn() {
     try {
       const { data } = await api.signIn({ ...formData });
       setIsLoading(false);
-
       login(data);
       navigate("/");
+      console.log("entrei");
+      navigate("/filmes");
     } catch (error) {
       console.log(error);
       setIsLoading(false);
